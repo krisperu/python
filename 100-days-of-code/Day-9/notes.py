@@ -20,3 +20,25 @@ print(programming_dictionary)
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
+
+
+###############################################
+#Nesting
+travel_log = {
+    "France" : {"cities_visited" : ["Paris", "Lille", "Dijon"], "total_visits" : 12},
+    "Germany" : {"cities_visited" : ["Berlin", "Hamburg", "Stuttgrat"], "total_visits" : 5}
+}
+
+#Nesting Dictionaries in a list
+travel_log = [
+    {
+        "counntry" : "France", 
+        "cities_visited" : ["Paris", "Lille", "Dijon"], 
+        "total_visits" : 12
+    },
+    {
+        "country" : "Germany", 
+        "cities_visited" : ["Berlin", "Hamburg", "Stuttgrat"], 
+        "total_visits" : 5
+    }
+]
